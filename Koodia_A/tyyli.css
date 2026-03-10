@@ -1,0 +1,100 @@
+H1 {color:rgb(230, 177, 42)}
+
+h2 {color:rgb(197, 197, 197)}
+h2 {font-size: xx-large;}
+body{color: black;background-color: rgb(31, 31, 31);
+font-family: "../Koodia_A/Fontti/ChakraPetch-Medium.ttf";}
+
+p{color: rgb(202, 202, 202);
+font-size: x-large;}
+p1{color: rgb(202, 202, 202);}
+p1{font-size: large;}
+p2{color: rgb(202, 202, 202);}
+header{width: 50em;margin: auto;}
+
+.nav{color: white;
+font-size: x-large;
+padding: 30px;
+border-left: solid 5px rgb(216, 216, 216);
+border-right: solid 5px rgb(216, 216, 216);
+background-color: rgb(78, 32, 32);}
+
+.nani{color: white;
+font-size: xx-large;
+padding: 30px;
+border-left: solid 5px rgb(216, 216, 216);
+display: block;
+}
+.nani a { color: white; text-decoration: none; padding: 10px; }
+
+.nani a:hover { background-color: #151515;  }
+
+.lista{font-size: xx-large;}
+ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 30px;
+  width: 500px;
+  background-color: rgb(78, 32, 32);
+}
+
+li a {
+  display: flex;
+  color: black;
+  padding: 30px 50px;
+  text-decoration: none;
+  box-sizing: border-box 50px 50px;
+}
+.lista a { color: white; text-decoration: none; padding: 10px; }
+
+.lista a:hover { background-color: #151515;  }
+
+aside {font-family: 'Courier New', Courier, monospace;
+background-color: black}
+
+article{background-color: rgb(78, 32, 32);
+padding: 50px;
+border-left: solid 10px rgb(216, 216, 216);
+border-right: solid 10px rgb(216, 216, 216);}
+
+main {width: 60em;
+margin:auto}
+
+@media only screen and (max-width:431px)
+{p {font-size: x-large;}}
+
+.loppu {display: flex;gap: 100px;}
+.flex_continer {display: flex;gap: 10px;}
+.flex_item {flex:1}
+.flex_item1 {flex:6}
+.aula {display: flex;gap: 20px;}
+.raketti{max-width: 200px;}
+.me{max-width: 400px;}
+.maelle{max-width: 400px;}
+.paa{max-width: 700px;}
+.ghost{max-width: 400px;}
+.apple{max-width: 400px;}
+.visi{max-width: 400px;}
+.kullervo{max-width: 400px;}
+.kim{max-width: 400px;}
+.raven{max-width: 400px;}
+.satele{max-width: 400px;}
+.astarion{max-width: 400px;}
+
+.menu-icon { display: none;  font-size: 30px; cursor: pointer; color: #ffffff; background-color: rgb(78, 32, 32); }
+
+        .nav { display: flex;  justify-content: space-around;  background-color: rgb(78, 32, 32);  padding: 10px;  }
+
+        .nav a { color: white; text-decoration: none; padding: 10px; }
+
+        .nav a:hover { background-color: #151515;  }
+
+        @media (max-width: 500px) {
+
+            .nav { display: none;  flex-direction: column;  width: 100%; }
+
+            .nav a {text-align: center; padding: 15px;  border-top: 1px solid #575757; }
+
+            .menu-icon {  display: block; }
+
+        }
