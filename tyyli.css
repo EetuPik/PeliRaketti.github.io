@@ -3,7 +3,7 @@ H1 {color:rgb(230, 177, 42)}
 h2 {color:rgb(197, 197, 197)}
 h2 {font-size: xx-large;}
 body{color: black;background-color: rgb(31, 31, 31);
-font-family: "../Koodia_A/Fontti/ChakraPetch-Medium.ttf";}
+font-family: "./Fontti/ChakraPetch-Medium.ttf";}
 
 p{color: rgb(202, 202, 202);
 font-size: x-large;}
@@ -98,3 +98,4 @@ margin:auto}
             .menu-icon {  display: block; }
 
         }
+
